@@ -1036,12 +1036,12 @@ module.exports = nativeDescription: "Bahasa Indonesia", englishDescription: "Ind
     level_to_unlock: "Level untuk dibuka:" # Label for which level you have to beat to unlock a particular hero (click a locked hero in the store to see)
     restricted_to_certain_heroes: "Hanya beberapa jagoan yang bisa memainkan level ini."
 
-#  char_customization_modal:
-#    heading: "Customize Your Hero"
-#    body: "Body"
-#    name_label: "Hero's Name"
-#    hair_label: "Hair Color"
-#    skin_label: "Skin Color"
+  char_customization_modal:
+    heading: "Kostumisasi Pahlawan mu"
+    body: "Badan"
+    name_label: "Nama Pahlawan"
+    hair_label: "Warna Rambut"
+    skin_label: "Warna Kulit"
 
 #  skill_docs:
 #    function: "function" # skill types
@@ -1286,7 +1286,7 @@ module.exports = nativeDescription: "Bahasa Indonesia", englishDescription: "Ind
     create_account_subtitle: "Dapatkan akses peralatan hanya untuk guru jika menggunakan CodeCombat di ruang kelas. <strong>Mempersiapkan kelas</strong>, menambah siswamu, dan <strong>mengawasi perkembangan mereka</strong>!"
     convert_account_title: "Ubah ke Akun Guru"
     not: "Tidak"
-#    full_name_required: "First and last name required"
+    full_name_required: "Masukkan nama awal dan akhir anda"
 
   versions:
     save_version_title: "Simpan Versi Baru"
@@ -1639,8 +1639,8 @@ module.exports = nativeDescription: "Bahasa Indonesia", englishDescription: "Ind
     start_challenge: "Memulai Tantangan"
     locked: "Terkunci"
     concepts_used: "Konsep yang Digunakan:"
-#    show_change_log: "Show changes to this course's levels"
-#    hide_change_log: "Hide changes to this course's levels"
+    show_change_log: "Tampilkan perubahan pada kursus level ini"
+    hide_change_log: "Sembunyikan perubahan pada kursus level ini"
 #    concept_videos: "Concept Videos"
 #    concept: "Concept:"
 #    basic_syntax: "Basic Syntax"
@@ -2510,7 +2510,7 @@ module.exports = nativeDescription: "Bahasa Indonesia", englishDescription: "Ind
     unauthorized: "Anda harus masuk. Apakah anda menonaktifkan cookies?"
     forbidden: "Terlarang"
     forbidden_desc: "Oh tidak, tidak ada yang kami bisa tunjukkan kepadamu di sini! Pastikan kamu masuk menggunakan akun yang benar, atau kunjungi salah satu tautan dibawah untuk kembali ke pemrograman!"
-#    user_not_found: "User Not Found"
+    user_not_found: "Pengguna Tidak Ditemukan"
     not_found: "Tidak Ditemukan"
     not_found_desc: "Hm, tidak ada apa-apa di sini. Kunjungi salah satu tautan berikut untuk kembali ke pemrograman!"
     not_allowed: "Metode tidak diijinkan."
@@ -2521,7 +2521,7 @@ module.exports = nativeDescription: "Bahasa Indonesia", englishDescription: "Ind
     unknown: "Kesalahan tidak diketahui"
     error: "KESALAHAN"
     general_desc: "Ada yang salah, dan mungkin itu salah kami. Coba tunggu sebentar lalu muat ulang halaman, atau kunjungi salah satu tautan dibawah untuk kembali ke pemrograman!"
-#    too_many_login_failures: "There have been too many unsuccessful login attempts.  Please try again later."
+    too_many_login_failures: "Terlalu banyak kegagalan masuk.  Silahkan coba lagi nanti!."
 
   resources:
     level: "Level"
